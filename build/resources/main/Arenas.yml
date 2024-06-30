@@ -1,0 +1,34 @@
+arenas:
+  - arena:
+      name: "carnival"
+      world: "world"
+      max_players: 10
+      min_players: 1
+      rounds: 5
+      waiting_location:
+        x: -5
+        y: 80
+        z: -154
+      arena_spawnpoint:
+        x: -4
+        y: 75
+        z: -142
+      arena_region:
+        min: [ -10, 68, -148 ]
+        max: [ 2, 77, -136 ]
+      first_floor:
+        color: "green"
+        min: [ -1, 71, -139 ]
+        max: [ -3, 71, -141 ]
+      second_floor:
+        color: "yellow"
+        min: [ -1, 71, -143 ]
+        max: [ -3, 71, -145 ]
+      third_floor:
+        color: "blue"
+        min: [ -5, 71, -143 ]
+        max: [ -7, 71, -145 ]
+      fourth_floor:
+        color: "red"
+        min: [ -5, 71, -139 ]
+        max: [ -7, 71, -141 ]

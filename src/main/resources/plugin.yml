@@ -1,0 +1,6 @@
+name: Race
+version: '${version}'
+main: me.ciakid.Plugin
+api-version: '1.20'
+depend:
+  - WorldEdit

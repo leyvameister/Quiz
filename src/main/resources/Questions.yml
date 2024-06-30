@@ -1,0 +1,269 @@
+questions:
+  - question: "Río más largo del mundo"
+    correct_answer:
+      text: "amazonas"
+    wrong_answers:
+      - text: "nilo"
+      - text: "yangtse"
+      - text: "misisipi"
+    time_to_answer: 5
+
+  - question: "Capital de España"
+    correct_answer:
+      text: "madrid"
+    wrong_answers:
+      - text: "paris"
+      - text: "berlin"
+      - text: "moscu"
+    time_to_answer: 5
+
+  - question: "Capital de China"
+    correct_answer:
+      text: "Beijing"
+    wrong_answers:
+      - text: "Roma"
+      - text: "Tokio"
+      - text: "Sidney"
+    time_to_answer: 7
+
+  - question: "El metal más ligero"
+    correct_answer:
+      text: "litio"
+    wrong_answers:
+      - text: "plata"
+      - text: "oro"
+      - text: "mercurio"
+    time_to_answer: 6
+
+  - question: "Planeta más grande del Sistema Solar"
+    correct_answer:
+      text: "Júpiter"
+    wrong_answers:
+      - text: "Saturno"
+      - text: "Urano"
+      - text: "Neptuno"
+    time_to_answer: 5
+
+  - question: "País con la mayor población"
+    correct_answer:
+      text: "China"
+    wrong_answers:
+      - text: "India"
+      - text: "Estados Unidos"
+      - text: "Indonesia"
+    time_to_answer: 7
+
+  - question: "Animal terrestre más rápido"
+    correct_answer:
+      text: "guepardo"
+    wrong_answers:
+      - text: "león"
+      - text: "tigre"
+      - text: "lobo"
+    time_to_answer: 6
+
+  - question: "El océano más grande del mundo"
+    correct_answer:
+      text: "Pacífico"
+    wrong_answers:
+      - text: "Atlántico"
+      - text: "Índico"
+      - text: "Ártico"
+    time_to_answer: 5
+
+  - question: "Monte más alto del mundo"
+    correct_answer:
+      text: "Everest"
+    wrong_answers:
+      - text: "K2"
+      - text: "Kangchenjunga"
+      - text: "Lhotse"
+    time_to_answer: 6
+
+  - question: "El país más grande del mundo"
+    correct_answer:
+      text: "Rusia"
+    wrong_answers:
+      - text: "Canadá"
+      - text: "China"
+      - text: "Estados Unidos"
+    time_to_answer: 5
+
+  - question: "Animal más grande del mundo"
+    correct_answer:
+      text: "ballena azul"
+    wrong_answers:
+      - text: "elefante"
+      - text: "jirafa"
+      - text: "oso polar"
+    time_to_answer: 5
+
+  - question: "País con la mayor superficie forestal"
+    correct_answer:
+      text: "Rusia"
+    wrong_answers:
+      - text: "Brasil"
+      - text: "Canadá"
+      - text: "Estados Unidos"
+    time_to_answer: 7
+
+  - question: "La capital de Australia"
+    correct_answer:
+      text: "Canberra"
+    wrong_answers:
+      - text: "Sídney"
+      - text: "Melbourne"
+      - text: "Brisbane"
+    time_to_answer: 6
+
+  - question: "La isla más grande del mundo"
+    correct_answer:
+      text: "Groenlandia"
+    wrong_answers:
+      - text: "Nueva Guinea"
+      - text: "Borneo"
+      - text: "Madagascar"
+    time_to_answer: 7
+
+  - question: "El desierto más grande del mundo"
+    correct_answer:
+      text: "Sahara"
+    wrong_answers:
+      - text: "Gobi"
+      - text: "Kalahari"
+      - text: "Atacama"
+    time_to_answer: 5
+
+  - question: "El país más pequeño del mundo"
+    correct_answer:
+      text: "Vaticano"
+    wrong_answers:
+      - text: "Mónaco"
+      - text: "San Marino"
+      - text: "Liechtenstein"
+    time_to_answer: 5
+
+  - question: "El río más caudaloso del mundo"
+    correct_answer:
+      text: "Amazonas"
+    wrong_answers:
+      - text: "Nilo"
+      - text: "Yangtsé"
+      - text: "Mississippi"
+    time_to_answer: 5
+
+  - question: "La lengua más hablada del mundo"
+    correct_answer:
+      text: "Mandarín"
+    wrong_answers:
+      - text: "Inglés"
+      - text: "Español"
+      - text: "Hindú"
+    time_to_answer: 6
+
+  - question: "El país con más islas"
+    correct_answer:
+      text: "Suecia"
+    wrong_answers:
+      - text: "Indonesia"
+      - text: "Filipinas"
+      - text: "Japón"
+    time_to_answer: 7
+
+  - question: "El océano más profundo del mundo"
+    correct_answer:
+      text: "Pacífico"
+    wrong_answers:
+      - text: "Atlántico"
+      - text: "Índico"
+      - text: "Ártico"
+    time_to_answer: 5
+  - question: "Animal más grande del mundo"
+    correct_answer:
+      text: "ballena azul"
+    wrong_answers:
+      - text: "elefante"
+      - text: "jirafa"
+      - text: "oso polar"
+    time_to_answer: 5
+
+  - question: "País con la mayor superficie forestal"
+    correct_answer:
+      text: "Rusia"
+    wrong_answers:
+      - text: "Brasil"
+      - text: "Canadá"
+      - text: "Estados Unidos"
+    time_to_answer: 7
+
+  - question: "La capital de Australia"
+    correct_answer:
+      text: "Canberra"
+    wrong_answers:
+      - text: "Sídney"
+      - text: "Melbourne"
+      - text: "Brisbane"
+    time_to_answer: 6
+
+  - question: "La isla más grande del mundo"
+    correct_answer:
+      text: "Groenlandia"
+    wrong_answers:
+      - text: "Nueva Guinea"
+      - text: "Borneo"
+      - text: "Madagascar"
+    time_to_answer: 7
+
+  - question: "El desierto más grande del mundo"
+    correct_answer:
+      text: "Sahara"
+    wrong_answers:
+      - text: "Gobi"
+      - text: "Kalahari"
+      - text: "Atacama"
+    time_to_answer: 5
+
+  - question: "El país más pequeño del mundo"
+    correct_answer:
+      text: "Vaticano"
+    wrong_answers:
+      - text: "Mónaco"
+      - text: "San Marino"
+      - text: "Liechtenstein"
+    time_to_answer: 5
+
+  - question: "El río más caudaloso del mundo"
+    correct_answer:
+      text: "Amazonas"
+    wrong_answers:
+      - text: "Nilo"
+      - text: "Yangtsé"
+      - text: "Mississippi"
+    time_to_answer: 5
+
+  - question: "La lengua más hablada del mundo"
+    correct_answer:
+      text: "Mandarín"
+    wrong_answers:
+      - text: "Inglés"
+      - text: "Español"
+      - text: "Hindú"
+    time_to_answer: 6
+
+  - question: "El país con más islas"
+    correct_answer:
+      text: "Suecia"
+    wrong_answers:
+      - text: "Indonesia"
+      - text: "Filipinas"
+      - text: "Japón"
+    time_to_answer: 7
+
+  - question: "El océano más profundo del mundo"
+    correct_answer:
+      text: "Pacífico"
+    wrong_answers:
+      - text: "Atlántico"
+      - text: "Índico"
+      - text: "Ártico"
+    time_to_answer: 5
