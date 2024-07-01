@@ -4,7 +4,7 @@ import me.ciakid.event.QuizRoundRunningEvent;
 import me.ciakid.game.Quiz;
 import me.ciakid.game.model.Answer;
 import me.ciakid.game.model.IQuestion;
-import me.ciakid.listener.quiz.end.QuizNormalEndReason;
+import me.ciakid.listener.quiz.end.reason.QuizNormalEndReason;
 import me.ciakid.player.QuizPlayer;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
@@ -20,11 +20,12 @@ public class QuizRoundRunning implements Listener {
 
     @EventHandler
     public void onQuizRoundRunning(QuizRoundRunningEvent e) {
-        Quiz quizEventsTest = e.getQuiz();
+        Quiz quiz = e.getQuiz();
         int remainingDelayTime = e.getRemainingDelayTime();
-        List<IQuestion> questions = quizEventsTest.getQuestions();
-        int currentQuestionIndex = quizEventsTest.getCurrentQuestionIndex();
-        List<QuizPlayer> players = quizEventsTest.getPlayers();
+
+        List<IQuestion> questions = quiz.getQuestions();
+        int currentQuestionIndex = quiz.getCurrentQuestionIndex();
+        List<QuizPlayer> players = quiz.getPlayers();
 
         IQuestion currentQuestion = questions.get(currentQuestionIndex);
 
@@ -37,17 +38,6 @@ public class QuizRoundRunning implements Listener {
         if (remainingDelayTime == 0) {
             broadcast(players, Component.text("Time's up!"));
             currentQuestion.getWrongAnswers().forEach(wrongAnswer -> wrongAnswer.getFloor().destroy());
-
-            currentQuestionIndex++;
-
-            quizEventsTest.setCurrentQuestionIndex(currentQuestionIndex);
-
-            if (currentQuestionIndex < questions.size()) {
-                quizEventsTest.beginNewRound();
-            } else {
-                quizEventsTest.end(new QuizNormalEndReason());
-            }
-
         }
 
     }
@@ -59,6 +49,5 @@ public class QuizRoundRunning implements Listener {
             player.sendMessage(text);
         });
     }
-
 
 }
