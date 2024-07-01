@@ -20,6 +20,7 @@ public class QuizPlayerLeave implements Listener {
         Quiz quiz = e.getQuiz();
         QuizPlayer quizPlayer = e.getQuizPlayer();
         Player player = Bukkit.getPlayer(quizPlayer.getPlayer());
+
         player.teleport(Plugin.getInstance().getLobby());
         player.setGameMode(quizPlayer.getSavedGameMode());
         player.getInventory().setContents(quizPlayer.getSavedInventory());

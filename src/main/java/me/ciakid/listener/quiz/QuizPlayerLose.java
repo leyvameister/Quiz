@@ -3,7 +3,7 @@ package me.ciakid.listener.quiz;
 import me.ciakid.context.PlayerContext;
 import me.ciakid.event.QuizPlayerLoseEvent;
 import me.ciakid.game.Quiz;
-import me.ciakid.listener.quiz.end.reason.QuizAllPlayersLostEndReason;
+import me.ciakid.listener.quiz.end.QuizAllPlayersLostEndReason;
 import me.ciakid.player.QuizPlayer;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;

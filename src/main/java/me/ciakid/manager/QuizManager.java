@@ -90,7 +90,7 @@ public class QuizManager {
         return (List<Map<String, Object>>) arenasData.get("arenas");
     }
 
-    private Map<String, Object> selectRandomArena(List<Map<String, Object>> arenasList, Random random) throws NoArenasAvailableException {
+    public Map<String, Object> selectRandomArena(List<Map<String, Object>> arenasList, Random random) throws NoArenasAvailableException {
         int attempts = 0;
         while (attempts < arenasList.size()) {
 
@@ -190,7 +190,7 @@ public class QuizManager {
         }
 
         int timeToAnswer = (int) questionMap.get("time_to_answer");
-        return new Question(questionText, correctAnswer, wrongAnswers, timeToAnswer);
+        return new Question(questionText, correctAnswer, wrongAnswers.get(0), wrongAnswers.get(1), wrongAnswers.get(2), timeToAnswer);
     }
 
 }

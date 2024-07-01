@@ -20,19 +20,23 @@ import java.util.logging.Level;
 
 public class QuizCountdownRunning implements Listener {
 
+
     @EventHandler
     public void onCountdownRunning(QuizCountdownRunningEvent e) {
-        Quiz quiz = e.getQuiz();
+        Quiz quizEventsTest = e.getQuiz();
         int remainingCountdownTime = e.getRemainingCountdownTime();
-
-        broadcast(quiz.getPlayers(), Component.text("Game starting in: " + remainingCountdownTime));
+        broadcast(quizEventsTest.getPlayers(), Component.text("Game starting in: " + remainingCountdownTime));
 
         if (remainingCountdownTime == 0) {
-            List<QuizPlayer> players = quiz.getPlayers();
-            Location arenaSpawnpoint = quiz.getArenaSpawnpoint();
+            List<QuizPlayer> players = quizEventsTest.getPlayers();
+            Location arenaSpawnpoint = quizEventsTest.getArenaSpawnpoint();
+
+            quizEventsTest.setState(State.STARTED);
 
             broadcast(players, Component.text("Go!"));
             teleport(players, arenaSpawnpoint);
+
+            quizEventsTest.beginNewRound();
         }
     }
 

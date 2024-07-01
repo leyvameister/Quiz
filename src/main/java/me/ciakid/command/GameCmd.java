@@ -9,14 +9,10 @@ import me.ciakid.context.PlayerContext;
 import me.ciakid.exception.NoArenasAvailableException;
 import me.ciakid.game.Game;
 import me.ciakid.game.Quiz;
-import me.ciakid.manager.QuizManager;
 import me.ciakid.player.QuizPlayer;
 import net.kyori.adventure.text.Component;
-import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
-import java.util.List;
 
 @Command("game")
 public class GameCmd extends BaseCommand {
@@ -35,6 +31,7 @@ public class GameCmd extends BaseCommand {
             player.sendMessage("Error already in game");
             return;
         }
+
         try {
             Game game = gameFinder.findAvailable();
             game.addPlayer(quizPlayer);
@@ -58,11 +55,62 @@ public class GameCmd extends BaseCommand {
         player.sendMessage(Component.text("You have left"));
     }
 
-    @SubCommand("test")
-    public void onTestCommand(CommandSender sender) {
-        QuizManager quizManager = Plugin.getInstance().getQuizManager();
-        List<Quiz> liveQuizzes = quizManager.getLiveQuizzes();
-        Bukkit.broadcastMessage(String.valueOf(liveQuizzes));
-    }
+
+//    @SubCommand("jointest")
+//    public void jointest(CommandSender sender) {
+//        Player player = (Player) sender;
+//        QuizPlayer quizPlayer = PlayerManager.wrap(player);
+//
+//        if (quizPlayer.isInGame()) {
+//            player.sendMessage("Error already in game");
+//            return;
+//        }
+//
+//        Game game = Plugin.getInstance().getQuiz();
+//        game.addPlayer(player);
+//        quizPlayer.setInGame(true);
+//        quizPlayer.saveInventory();
+//        player.teleport(game.getWaitingLocation());
+//
+//        if (game.readyToStart()) {
+//            game.start();
+//        }
+//
+//    }
+//    @SubCommand("join")
+//    public void onJoinCommand(CommandSender sender, String gameId) {
+//        Player player = (Player) sender;
+//        QuizPlayer quizPlayer = PlayerManager.wrap(player);
+//
+//
+//    }
+//
+//    @SubCommand("joins")
+//    public void joins(CommandSender sender) {
+//        Player player = (Player) sender;
+//        QuizPlayer quizPlayer = PlayerManager.wrap(player);
+//
+//        Quiz quiz = Plugin.getInstance().getQuiz();
+//
+//        quiz.addPlayer((Player) sender);
+//    }
+//
+//    @SubCommand("test")
+//    public void test(CommandSender sender) {
+//        Player player = (Player) sender;
+//
+//        new BukkitRunnable() {
+//
+//            @Override
+//            public void run() {
+//                player.sendMessage(Component.text("hola desde dentro", NamedTextColor.RED));
+//
+//            }
+//
+//        }.runTaskTimer(Plugin.getInstance(), 0, 20L);
+//
+//        player.sendMessage(Component.text("hola desde fuera", NamedTextColor.AQUA));
+//
+//    }
 
 }

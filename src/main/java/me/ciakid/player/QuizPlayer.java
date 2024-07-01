@@ -23,7 +23,6 @@ public class QuizPlayer implements GamePlayer {
 
     public QuizPlayer(UUID player) {
         this.player = player;
-        this.context = PlayerContext.NOT_PLAYING;
     }
 
     @Override
