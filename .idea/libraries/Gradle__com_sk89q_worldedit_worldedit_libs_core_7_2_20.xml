@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sk89q.worldedit.worldedit-libs:core:7.2.20" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.sk89q.worldedit.worldedit-libs" artifactId="core" version="7.2.20" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sk89q.worldedit.worldedit-libs/core/7.2.20/4a9b37c01bcc7b25c257b91cde83dfc7143f2a59/core-7.2.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sk89q.worldedit.worldedit-libs/core/7.2.20/7c5f9179391a3c6c75c679d1d972a781642ec719/core-7.2.20-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

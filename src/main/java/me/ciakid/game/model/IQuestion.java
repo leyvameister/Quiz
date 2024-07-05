@@ -12,12 +12,6 @@ public interface IQuestion {
 
     Answer getRightAnswer();
 
-    Answer getWrongAnswer1();
-
-    Answer getWrongAnswer2();
-
-    Answer getWrongAnswer3();
-
     List<Answer> getAllAnswers();
 
     List<Answer> getWrongAnswers();

@@ -1,7 +1,7 @@
 package me.ciakid.event;
 
 import me.ciakid.game.Quiz;
-import me.ciakid.listener.quiz.end.QuizEndingReason;
+import me.ciakid.listener.quiz.end.reason.QuizEndingReason;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 

@@ -4,11 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6408065e-31af-469b-b870-2169ede187e6" name="Changes" comment="" />
+    <list default="true" id="6408065e-31af-469b-b870-2169ede187e6" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/Plugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/command/GameCmd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/Quiz$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/Quiz$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/Quiz$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/Quiz$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/reason/QuizEndingReason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Game.class.uniqueId14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameCmd.class.uniqueId16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameFinder.class.uniqueId25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/PlayerMove.class.uniqueId1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/PlayerQuit.class.uniqueId8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Quiz$1.class.uniqueId26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Quiz$2.class.uniqueId7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Quiz$3.class.uniqueId29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Quiz$4.class.uniqueId13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Quiz.class.uniqueId9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizAllPlayersLostEndReason.class.uniqueId10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizCountdownRunning.class.uniqueId6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizCountdownRunningEvent.class.uniqueId32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizEndingReason.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizEndingRunning.class.uniqueId27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizEndingRunningEvent.class.uniqueId5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizManager.class.uniqueId18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizNormalEndReason.class.uniqueId17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayer.class.uniqueId24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerJoin.class.uniqueId21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerJoinEvent.class.uniqueId12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerLeaveEvent.class.uniqueId33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerLose.class.uniqueId4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerLoseEvent.class.uniqueId28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizRoundDelayRunning.class.uniqueId3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizRoundDelayRunningEvent.class.uniqueId31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizRoundRunning.class.uniqueId11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizRoundRunningEvent.class.uniqueId23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/event/QuizEndingRunningEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/event/QuizEndingRunningEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/game/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/QuizPlayerLeave.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/QuizPlayerLeave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/QuizPlayerLose.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/QuizPlayerLose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/QuizEndingRunning.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/QuizEndingRunning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/reason/QuizAllPlayersLostEndReason.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/reason/QuizAllPlayersLostEndReason.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/reason/QuizNormalEndReason.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/end/reason/QuizNormalEndReason.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/round/QuizRoundRunning.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/round/QuizRoundRunning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/start/QuizCountdownRunning.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/listener/quiz/start/QuizCountdownRunning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/manager/QuizManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/manager/QuizManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/player/QuizPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/ciakid/player/QuizPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Quiz-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Quiz-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizBeginNewRoundEvent.class.uniqueId30" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizBeginNewRoundEvent.class.uniqueId30" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizEndEvent.class.uniqueId19" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizEndEvent.class.uniqueId19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizFinder.class.uniqueId22" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizFinder.class.uniqueId22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerLeave.class.uniqueId2" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizPlayerLeave.class.uniqueId2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizStartEvent.class.uniqueId20" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/QuizStartEvent.class.uniqueId20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -25,7 +87,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dfdab49d0a3e9e590b8be8e8e2184eb1b8a3e362" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,13 +100,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;fd68c0dd&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Reverting in main"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +116,15 @@
       <option name="presentableId" value="Default" />
       <updated>1720143322521</updated>
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1720214556038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720214556038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

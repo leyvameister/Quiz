@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="Quiz:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="me.ciakid" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Quiz.main" />
+    <orderEntry type="library" name="Gradle: dev.triumphteam:triumph-cmd-bukkit:2.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: dev.triumphteam:triumph-cmd-core:2.0.0-SNAPSHOT" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="Quiz.main" />
+</module>

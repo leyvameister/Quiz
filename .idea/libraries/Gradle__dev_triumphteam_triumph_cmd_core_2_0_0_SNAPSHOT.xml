@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.triumphteam:triumph-cmd-core:2.0.0-SNAPSHOT" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="dev.triumphteam" artifactId="triumph-cmd-core" version="2.0.0-SNAPSHOT" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.triumphteam/triumph-cmd-core/2.0.0-SNAPSHOT/a68f0a0973a60c67a5dc144e75d084a0be229608/triumph-cmd-core-2.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.triumphteam/triumph-cmd-core/2.0.0-SNAPSHOT/a3f0a92a88e34bd280b001887ee35c7d29b515a/triumph-cmd-core-2.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

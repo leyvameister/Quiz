@@ -8,18 +8,14 @@ import java.util.List;
 public class Question implements IQuestion {
     private final TextComponent questionText;
     private final Answer rightAnswer;
-    private Answer wrongAnswer1;
-    private Answer wrongAnswer2;
-    private Answer wrongAnswer3;
+    private final List<Answer> wrongAnswers;
     private final int timeToAnswer;
 
 
-    public Question(TextComponent questionText, Answer rightAnswer, Answer wrongAnswer1, Answer wrongAnswer2, Answer wrongAnswer3, int timeToAnswer) {
+    public Question(TextComponent questionText, Answer rightAnswer, List<Answer> wrongAnswers, int timeToAnswer) {
         this.questionText = questionText;
         this.rightAnswer = rightAnswer;
-        this.wrongAnswer1 = wrongAnswer1;
-        this.wrongAnswer2 = wrongAnswer2;
-        this.wrongAnswer3 = wrongAnswer3;
+        this.wrongAnswers = wrongAnswers;
         this.timeToAnswer = timeToAnswer;
     }
 
@@ -39,28 +35,15 @@ public class Question implements IQuestion {
     }
 
     @Override
-    public Answer getWrongAnswer1() {
-        return this.wrongAnswer1;
-    }
-
-    @Override
-    public Answer getWrongAnswer2() {
-        return this.wrongAnswer2;
-    }
-
-    @Override
-    public Answer getWrongAnswer3() {
-        return this.wrongAnswer3;
-    }
-
-    @Override
     public List<Answer> getAllAnswers() {
-        return List.of(wrongAnswer1, wrongAnswer2, wrongAnswer3, rightAnswer);
+        List<Answer> allAnswers = new ArrayList<>(wrongAnswers);
+        allAnswers.add(rightAnswer);
+        return allAnswers;
     }
 
     @Override
     public List<Answer> getWrongAnswers() {
-        return List.of(wrongAnswer1, wrongAnswer2, wrongAnswer3);
+        return wrongAnswers;
     }
 
 }
