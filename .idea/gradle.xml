@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-<<<<<<< HEAD
   <component name="GradleMigrationSettings" migrationVersion="1" />
-=======
-=======
->>>>>>> parent of b97b354 (Update)
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -18,5 +13,4 @@
       </GradleProjectSettings>
     </option>
   </component>
->>>>>>> parent of b97b354 (Update)
 </project>
