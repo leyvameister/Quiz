@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
 group = 'me.ciakid'
@@ -55,6 +54,13 @@ processResources {
     }
 }
 
-shadowJar {
-    relocate("dev.triumphteam.cmd", "me.ciakid.api.cmd")
+tasks.register('shadowJar', Jar) {
+    archiveClassifier.set('all')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from sourceSets.main.output
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
+
+build.dependsOn tasks.named('shadowJar')

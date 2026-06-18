@@ -1,4 +1,4 @@
-name: Race
+name: Quiz
 version: '${version}'
 main: me.ciakid.Plugin
 api-version: '1.20'
