@@ -1,0 +1,94 @@
+lobby:
+  world: world
+  x: -17.5
+  y: 72
+  z: -147.5
+  yaw: 0
+  pitch: 0
+
+timers:
+  countdown: 10
+  intermission: 4
+  ending: 8
+
+arenas:
+  carnival:
+    min-players: 1
+    max-players: 10
+    rounds: 5
+    waiting-spawn:
+      world: world
+      x: -5.5
+      y: 80
+      z: -154.5
+      yaw: 0
+      pitch: 0
+    game-spawn:
+      world: world
+      x: -4.5
+      y: 75
+      z: -142.5
+      yaw: 0
+      pitch: 0
+    region:
+      min: { x: -10, y: 68, z: -148 }
+      max: { x: 2, y: 77, z: -136 }
+    floors:
+      green:
+        label: Verde
+        min: { x: -3, y: 71, z: -141 }
+        max: { x: -1, y: 71, z: -139 }
+      yellow:
+        label: Amarillo
+        min: { x: -3, y: 71, z: -145 }
+        max: { x: -1, y: 71, z: -143 }
+      blue:
+        label: Azul
+        min: { x: -7, y: 71, z: -145 }
+        max: { x: -5, y: 71, z: -143 }
+      red:
+        label: Rojo
+        min: { x: -7, y: 71, z: -141 }
+        max: { x: -5, y: 71, z: -139 }
+
+questions:
+  capital-spain:
+    prompt: Capital de España
+    correct-answer: Madrid
+    wrong-answers:
+      - París
+      - Berlín
+      - Moscú
+    seconds: 8
+  largest-planet:
+    prompt: Planeta más grande del Sistema Solar
+    correct-answer: Júpiter
+    wrong-answers:
+      - Saturno
+      - Urano
+      - Neptuno
+    seconds: 8
+  fastest-animal:
+    prompt: Animal terrestre más rápido
+    correct-answer: Guepardo
+    wrong-answers:
+      - León
+      - Tigre
+      - Lobo
+    seconds: 8
+  largest-ocean:
+    prompt: Océano más grande del mundo
+    correct-answer: Pacífico
+    wrong-answers:
+      - Atlántico
+      - Índico
+      - Ártico
+    seconds: 8
+  tallest-mountain:
+    prompt: Monte más alto del mundo
+    correct-answer: Everest
+    wrong-answers:
+      - K2
+      - Kangchenjunga
+      - Lhotse
+    seconds: 8
